@@ -4,9 +4,12 @@ namespace Fastwebmedia\MenuBuilder\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Fastwebmedia\MenuBuilder\Models\Menu;
+use GeneaLabs\LaravelModelCaching\Traits\Cachable;
 
 class MenuItem extends Model
 {
+    use Cachable;
+
     protected $fillable = ['menu_id', 'name', 'value', 'class', 'parameters', 'target', 'parent_id', 'order', 'enabled'];
 
     protected $with = ['children'];
