@@ -1,9 +1,9 @@
 <?php
 
-namespace OptimistDigital\MenuBuilder\Models;
+namespace Fastwebmedia\MenuBuilder\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use OptimistDigital\MenuBuilder\Models\MenuItem;
+use Fastwebmedia\MenuBuilder\Models\MenuItem;
 use GeneaLabs\LaravelModelCaching\Traits\Cachable;
 
 class Menu extends Model

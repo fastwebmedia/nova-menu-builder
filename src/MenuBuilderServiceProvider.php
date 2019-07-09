@@ -1,11 +1,11 @@
 <?php
 
-namespace OptimistDigital\MenuBuilder;
+namespace Fastwebmedia\MenuBuilder;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use OptimistDigital\MenuBuilder\Http\Middleware\Authorize;
-use OptimistDigital\MenuBuilder\Http\Resources\MenuResource;
+use Fastwebmedia\MenuBuilder\Http\Middleware\Authorize;
+use Fastwebmedia\MenuBuilder\Http\Resources\MenuResource;
 use Laravel\Nova\Events\ServingNova;
 use Laravel\Nova\Nova;
 
@@ -47,7 +47,7 @@ class MenuBuilderServiceProvider extends ServiceProvider
         }
 
         Route::middleware(['nova', Authorize::class])
-            ->namespace('OptimistDigital\MenuBuilder\Http\Controllers')
+            ->namespace('Fastwebmedia\MenuBuilder\Http\Controllers')
             ->prefix('nova-vendor/nova-menu')
             ->group(__DIR__ . '/../routes/api.php');
     }

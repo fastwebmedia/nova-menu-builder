@@ -1,8 +1,8 @@
 <?php
 
-namespace OptimistDigital\MenuBuilder\Http\Middleware;
+namespace Fastwebmedia\MenuBuilder\Http\Middleware;
 
-use OptimistDigital\MenuBuilder\MenuBuilder;
+use Fastwebmedia\MenuBuilder\MenuBuilder;
 
 class Authorize
 {

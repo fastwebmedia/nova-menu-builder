@@ -91,16 +91,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Nesting and re-ordering of menu-items
 - Creation of custom link options (ie links to Laravel models)
 
-[1.3.0]: https://github.com/optimistdigital/nova-menu-builder/compare/1.2.1...1.3.0
-[1.2.1]: https://github.com/optimistdigital/nova-menu-builder/compare/1.2.0...1.2.1
-[1.2.0]: https://github.com/optimistdigital/nova-menu-builder/compare/1.1.4...1.2.0
-[1.1.4]: https://github.com/optimistdigital/nova-menu-builder/compare/1.1.3...1.1.4
-[1.1.3]: https://github.com/optimistdigital/nova-menu-builder/compare/1.1.2...1.1.3
-[1.1.2]: https://github.com/optimistdigital/nova-menu-builder/compare/1.1.1...1.1.2
-[1.1.1]: https://github.com/optimistdigital/nova-menu-builder/compare/1.1.0...1.1.1
-[1.1.0]: https://github.com/optimistdigital/nova-menu-builder/compare/1.0.4...1.1.0
-[1.0.4]: https://github.com/optimistdigital/nova-menu-builder/compare/1.0.3...1.0.4
-[1.0.3]: https://github.com/optimistdigital/nova-menu-builder/compare/1.0.2...1.0.3
-[1.0.2]: https://github.com/optimistdigital/nova-menu-builder/compare/1.0.1...1.0.2
-[1.0.1]: https://github.com/optimistdigital/nova-menu-builder/compare/1.0.0...1.0.1
-[1.0.0]: https://github.com/optimistdigital/nova-menu-builder/compare/2af2c175c02a00e954013a0e41e583b8d9b64ce4...1.0.0
+[1.3.0]: https://github.com/Fastwebmedia/nova-menu-builder/compare/1.2.1...1.3.0
+[1.2.1]: https://github.com/Fastwebmedia/nova-menu-builder/compare/1.2.0...1.2.1
+[1.2.0]: https://github.com/Fastwebmedia/nova-menu-builder/compare/1.1.4...1.2.0
+[1.1.4]: https://github.com/Fastwebmedia/nova-menu-builder/compare/1.1.3...1.1.4
+[1.1.3]: https://github.com/Fastwebmedia/nova-menu-builder/compare/1.1.2...1.1.3
+[1.1.2]: https://github.com/Fastwebmedia/nova-menu-builder/compare/1.1.1...1.1.2
+[1.1.1]: https://github.com/Fastwebmedia/nova-menu-builder/compare/1.1.0...1.1.1
+[1.1.0]: https://github.com/Fastwebmedia/nova-menu-builder/compare/1.0.4...1.1.0
+[1.0.4]: https://github.com/Fastwebmedia/nova-menu-builder/compare/1.0.3...1.0.4
+[1.0.3]: https://github.com/Fastwebmedia/nova-menu-builder/compare/1.0.2...1.0.3
+[1.0.2]: https://github.com/Fastwebmedia/nova-menu-builder/compare/1.0.1...1.0.2
+[1.0.1]: https://github.com/Fastwebmedia/nova-menu-builder/compare/1.0.0...1.0.1
+[1.0.0]: https://github.com/Fastwebmedia/nova-menu-builder/compare/2af2c175c02a00e954013a0e41e583b8d9b64ce4...1.0.0

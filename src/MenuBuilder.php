@@ -1,6 +1,6 @@
 <?php
 
-namespace OptimistDigital\MenuBuilder;
+namespace Fastwebmedia\MenuBuilder;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;
@@ -8,8 +8,8 @@ use Laravel\Nova\Tool;
 class MenuBuilder extends Tool
 {
     protected static $linkableModels = [
-        \OptimistDigital\MenuBuilder\Classes\MenuItemStaticURL::class,
-        \OptimistDigital\MenuBuilder\Classes\MenuItemText::class,
+        \Fastwebmedia\MenuBuilder\Classes\MenuItemStaticURL::class,
+        \Fastwebmedia\MenuBuilder\Classes\MenuItemText::class,
     ];
 
     protected static $locales = [

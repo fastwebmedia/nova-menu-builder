@@ -1,12 +1,12 @@
 {
-  "name": "optimistdigital/nova-menu-builder",
+  "name": "fastwebmedia/nova-menu-builder",
   "description": "Menu Builder Tool for Laravel Nova.",
   "keywords": [
     "laravel",
     "nova",
     "menu",
     "builder",
-    "optimistdigital"
+    "Fastwebmedia"
   ],
   "license": "MIT",
   "authors": [
@@ -17,23 +17,17 @@
     },
     {
       "name": "Optimist Digital",
-      "email": "info@optimistdigital.com",
+      "email": "info@Fastwebmedia.com",
       "role": "Maintainer"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/fastwebmedia/nova-menu-builder"
     }
   ],
   "require": {
     "php": ">=7.1.0",
-    "fastwebmedia/nova-menu-builder": "^0.1.0"
+    "genealabs/laravel-model-caching": "^0.5.6"
   },
   "autoload": {
     "psr-4": {
-      "OptimistDigital\\MenuBuilder\\": "src/"
+      "Fastwebmedia\\MenuBuilder\\": "src/"
     },
     "files": [
       "src/helpers.php"
@@ -42,7 +36,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "OptimistDigital\\MenuBuilder\\MenuBuilderServiceProvider"
+        "Fastwebmedia\\MenuBuilder\\MenuBuilderServiceProvider"
       ]
     }
   },

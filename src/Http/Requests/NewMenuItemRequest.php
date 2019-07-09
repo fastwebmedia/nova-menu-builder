@@ -1,10 +1,10 @@
 <?php
 
-namespace OptimistDigital\MenuBuilder\Http\Requests;
+namespace Fastwebmedia\MenuBuilder\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use OptimistDigital\MenuBuilder\MenuBuilder;
-use OptimistDigital\MenuBuilder\Classes\MenuItemText;
+use Fastwebmedia\MenuBuilder\MenuBuilder;
+use Fastwebmedia\MenuBuilder\Classes\MenuItemText;
 
 class NewMenuItemRequest extends FormRequest
 {

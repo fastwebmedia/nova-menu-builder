@@ -1,6 +1,6 @@
 <?php
 
-namespace OptimistDigital\MenuBuilder\Classes;
+namespace Fastwebmedia\MenuBuilder\Classes;
 
 class MenuItemStaticURL extends MenuLinkable
 {
