@@ -4,9 +4,12 @@ namespace OptimistDigital\MenuBuilder\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use OptimistDigital\MenuBuilder\Models\MenuItem;
+use GeneaLabs\LaravelModelCaching\Traits\Cachable;
 
 class Menu extends Model
 {
+    use Cachable;
+
     public function rootMenuItems()
     {
         return $this

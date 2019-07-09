@@ -21,8 +21,15 @@
       "role": "Maintainer"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/fastwebmedia/nova-menu-builder"
+    }
+  ],
   "require": {
-    "php": ">=7.1.0"
+    "php": ">=7.1.0",
+    "fastwebmedia/nova-menu-builder": "^0.1.0"
   },
   "autoload": {
     "psr-4": {
